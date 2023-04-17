@@ -25,7 +25,8 @@ h4 {
   background-position-y: 30%;
 }
 
-footer {  
+footer {
+  margin-top: 20px;
   padding: 30px;
   text-align: center;   
   font: bold 15px arial, sans-serif;
