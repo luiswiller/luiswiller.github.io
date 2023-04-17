@@ -11,6 +11,11 @@ header h1, h2 {
   text-align: center; 
 }
 
+h4 {
+  font-size: 20px;
+  margin-left: 260px;
+}
+
 #backgroundDark {
   background-color: #000;
   background-image: url(../assets/soft_willer.png);  
@@ -46,7 +51,7 @@ footer a:hover {
   text-align: center;
   text-decoration: none;
   border-radius: 20px;
-  margin-top: 75px;
+  margin-top: 43px;
   margin-left: 10px;  
   display: flex;  
 }

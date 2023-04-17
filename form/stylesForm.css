@@ -161,7 +161,7 @@
   display: flex;  
 }
 
-#buttom {
+#buttomReset, #buttomSubmit, #buttomInitial {
   background:#000;
   font: bold 20px arial, sans-serif;
   color:#db0707;
@@ -171,7 +171,7 @@
   margin: 10px;
 }
 
-#buttom:hover {
+#buttomReset:hover, #buttomSubmit:hover, #buttomInitial:hover {
   background: rgba(255, 255, 255, 0.2);
   outline: 6px solid rgba(255, 255, 255, 0.2);
   border-radius: 30px;
@@ -182,24 +182,6 @@
   text-align: right;
   font-size: 10px;
   margin: 10px; 
-}
-
-#initial {
-  background:#000;
-  font: bold 20px arial, sans-serif;
-  color:#db0707;
-  border: 2px solid white;
-  text-transform: uppercase;
-  border-radius: 20px;
-  display: flex;    
-  margin: 10px;    
-}
-
-#initial:hover {
-  background: rgba(255, 255, 255, 0.2);
-  outline: 6px solid rgba(255, 255, 255, 0.2);
-  border-radius: 30px;
-  cursor: pointer;
 }
 
 footer {
