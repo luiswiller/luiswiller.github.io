@@ -1,6 +1,6 @@
 <h1 align="center"> Willer </h1>
 <p align="center">
-  <img alt="Myproject" src=".github/" width="100%">
+  <img alt="luiswiller" src=".github/presentation" width="100%">
 </p>
 
 ## 🚀 Tecnologias
