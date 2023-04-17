@@ -1,0 +1,33 @@
+
+#thanks {
+  background-color: #000;
+  background-image: url(../assets/avatarLight.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 500px;
+}
+
+#thanksTitle {
+  color: #db0707;
+  text-align: center;
+  text-decoration: none;
+}
+
+#backButtom {
+  background:#000000;
+  font: bold 20px arial, sans-serif;
+  color:#e90606ea;
+  border:2px solid white;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-top: 0;      
+}
+
+#backButtom:hover {
+  background: rgba(255, 255, 255, 0.1);
+  outline: 8px solid rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+  cursor: pointer;
+}

@@ -1,0 +1,105 @@
+* {
+  color: #db0707;
+}
+
+#header {
+  margin-top: 0;
+  text-align: center;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+body {  
+  background-color: #000;
+  background-image: url(../assets/interface.jpg);
+  background-size: 500px;    
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#login {
+  text-align: left;
+  margin-left: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#login label {
+  margin: 5px;
+  font-size: 20px;
+}
+
+#login input {
+  margin: 5px;
+  font-size: 20px;
+}
+
+#password {
+  text-align: left;
+  margin-left: 10px;  
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#password label {
+  margin: 5px;
+  font-size: 20px;
+}
+
+#password input {
+  margin: 5px;
+  font-size: 20px;
+}
+
+#enterButtom {
+  background: #000000;
+  font: bold 20px arial, sans-serif;
+  border: 2px solid #e90606ea;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 20px;
+  margin: 10px; 
+  display: flex;   
+}
+
+#enterButtom:hover {  
+  outline: 6px solid rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  font-weight: bold;    
+}
+
+footer a {
+  text-decoration: none;      
+}
+
+footer a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  outline: 6px solid rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+}
+
+#backButtom {
+  background: #000000;
+  font: bold 20px arial, sans-serif;
+  border: 2px solid #e90606ea;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  margin-top: 410px;
+  margin-left: 10px;  
+  display: flex;  
+}
+
+#backButtom:hover {  
+  outline: 6px solid rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+  cursor: pointer;
+}

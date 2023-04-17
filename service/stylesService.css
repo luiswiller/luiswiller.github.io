@@ -1,0 +1,58 @@
+* {  
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: #db0707;
+  
+}
+
+header h1, h2 {
+  color: #db0707;  
+  position: top;
+  text-align: center; 
+}
+
+#backgroundDark {
+  background-color: #000;
+  background-image: url(../assets/soft_willer.png);  
+  background-repeat: no-repeat;  
+  background-position: top;
+  background-position-x: right;
+  background-position-y: 30%;
+}
+
+footer {  
+  padding: 30px;
+  text-align: center;   
+  font: bold 15px arial, sans-serif;
+  color: #db0707;
+  
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  outline: 6px solid rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+}
+
+#backButtom {
+  background: #000000;
+  font: bold 20px arial, sans-serif;
+  border: 2px solid #e90606ea;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  margin-top: 75px;
+  margin-left: 10px;  
+  display: flex;  
+}
+
+#backButtom:hover {  
+  outline: 6px solid rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+  cursor: pointer;
+}

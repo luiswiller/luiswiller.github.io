@@ -1,0 +1,48 @@
+* {  
+  box-sizing: border-box;
+}
+
+#container {
+  width: 100%;
+  max-width: 588px;  
+  margin: auto;
+  padding: 0 24px;
+}
+
+#profile img {
+  width: 520px;
+}
+
+#backgroundSoftWiller {
+  background-color: #000;
+}
+
+h3 {
+  color: red;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.buttom {
+  display: flex;
+}
+
+#buttomInitial, #buttomForm, #buttomService, #buttomLogin {
+  background:#000;
+  font: bold 20px arial, sans-serif;
+  color:#db0707;
+  border: 2px solid #db0707;
+  text-transform: uppercase;
+  border-radius: 20px;
+  margin: 10px;
+  display: flex;
+}
+
+#buttomInitial:hover, #buttomForm:hover, #buttomService:hover, #buttomLogin:hover {
+  background: rgba(255, 255, 255, 0.2);
+  outline: 6px solid rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+  cursor: pointer;
+}
+

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="./stylesForm.css">
+</head>
+
+<body>
+  <main>
+    <section>
+      <h1 id="titleForm">Faça parte da SOFT_WILLER</h1>
+      <form action="register">        
+        <div id="input">
+          <div id="theCad">
+            <label for="ctrl-cad">Preencha o Cadastro: </label>
+          </div>          
+          <div>            
+            <label for="ctrl-name">Nome completo: * </label>
+            <input name="name" type="text" required placeholder="Digite seu nome">
+          </div>
+          <div>
+            <label for="ctrl-email">Email: * </label>
+            <input name="email" type="email" required placeholder="Digite seu email">
+          </div>
+          <div>
+            <label for="ctrl-sex">Sexo: * </label>
+            <select name="sex" id="ctrl-sex">
+              <option value="1">Selecione</option>
+              <option value="2">Masculino</option>
+              <option value="3">Feminino</option>
+            </select>
+          </div>
+          <div>
+            <label for="ctrl-cpf">CPF: * </label>
+            <input name="cpf" type="cpf" required placeholder="Digite seu CPF">
+          </div>
+          <div>
+            <label for="ctrl-phone">Fone: * </label>
+            <input name="phone" type="phone" required placeholder="Digite seu telefone">
+          </div>
+          <div>
+            <label for="ctrl-birth">Nascimento: * </label>
+            <input name="birth" type="birth" required placeholder="__ /__ /____">
+          </div>
+          <div>
+            <label for="ctrl-city">Cidade: * </label>
+            <select name="city" id="ctrl-city">
+              <option value="1">Selecione</option>
+              <option value="2">Treze Tílias</option>
+              <option value="3">Salto Veloso</option>
+              <option value="4">Videira</option>
+              <option value="5">Joaçaba</option>
+              <option value="6">Luzerna</option>
+              <option value="7">Herval d'Oeste</option>
+              <option value="8">Iomere</option>
+              <option value="9">Caçador</option>
+              <option value="10">Florianópolis</option>
+              <option value="11">Blumenau</option>
+              <option value="12">Chapecó</option>
+              <option value="13">Joinville</option>
+              <option value="14">Criciúma</option>
+              <option value="15">São Paulo</option>
+              <option value="16">Rio de Janeiro</option>
+              <option value="17">Xangai</option>
+              <option value="18">Pequim</option>
+              <option value="19">Londres</option>
+            </select>
+          </div>
+          <div>
+            <label for="ctrl-state">Estado: * </label>
+            <select name="state" id="ctrl-state">
+              <option value="1">Selecione</option>
+              <option value="2">Santa Catarina</option>
+              <option value="3">Rio Grande do Sul</option>
+              <option value="4">Paraná</option>
+              <option value="5">São Paulo</option>
+              <option value="6">Rio de Janeiro</option>
+              <option value="7">Espírito Santo</option>
+              <option value="8">Fortaleza</option>
+              <option value="9">Mato Grosso</option>
+              <option value="10">Bahia</option>
+            </select>
+          </div>
+          <div>
+            <label for="ctrl-country">País: * </label>
+            <select name="ctrl-country" id="ctrl-country">
+              <option value="1">Selecione</option>
+              <option value="2">Brasil</option>
+              <option value="3">Estados Unidos</option>
+              <option value="4">Inglaterra</option>
+              <option value="5">China</option>
+              <option value="6">Japão</option>
+              <option value="7">Alemanha</option>
+              <option value="8">Áustria</option>
+              <option value="9">África do Sul</option>
+              <option value="10">Itália</option>
+            </select>
+          </div>
+          <div>
+            <label for="ctrl-job">Profissão: * </label>
+            <input name="job" type="job" placeholder="Digite sua profissão">
+          </div>
+        </div>
+        <div id="education">
+          <label for="ctrl-level">Escolaridade: * </label>
+          <div>
+            <input type="radio" name="level" id="ctrl-level-1">
+            <label for="ctrl-level-1">Fundamental</label>
+            <input type="radio" name="level" id="ctrl-level-2">
+            <label for="ctrl-level-2">Médio</label>
+            <input type="radio" name="level" id="ctrl-level-3">
+            <label for="ctrl-level-3">Superior</label>
+          </div>
+        </div>
+        <div id="languages">
+          <label for="ctrl-languages">Linguagens que você conhece: </label>
+          <div id="ctrl-languages">
+            <input id="ctrl-languages-htmlcss" name="language1" type="checkbox">
+            <label for="ctrl-languages-htmlcss">HTML e CSS</label>
+            <input id="ctrl-languages-github" name="language2" type="checkbox">
+            <label for="ctrl-languages-github">Git e GitHub</label>
+            <input id="ctrl-languages-java" name="language3" type="checkbox">
+            <label for="ctrl-languages-java">Java</label>
+            <input id="ctrl-languages-cshap" name="language4" type="checkbox">
+            <label for="ctrl-languages-cshap">C#</label>
+            <input id="ctrl-languages-js" name="language5" type="checkbox">
+            <label for="ctrl-languages-js">JavaScript</label>
+            <input id="ctrl-languages-python" name="language6" type="checkbox">
+            <label for="ctrl-languages-python">Python</label>
+            <input id="ctrl-languages-php" name="language7" type="checkbox">
+            <label for="ctrl-languages-php">PHP</label>
+          </div>
+        </div>
+        <div class="password">
+          <h2 class="passwordTitle">Senha</h2>
+          <div>
+            <label for="ctrl-password">Crie uma Senha: * </label>
+            <input name="password" type="password" required placeholder="Digite uma senha">
+          </div>
+          <div>
+            <label for="ctrl-password">Repita sua Senha: * </label>
+            <input name="password" type="password" required placeholder="Repita sua senha">
+          </div>
+          <div class="data">
+            <p>* Dados obrigatórios</p>
+          </div>
+        </div>
+        <div class="doubleButtom">
+          <input id="buttom" type="reset" value="Limpar">
+        </form>
+          <form action="thanks.html">
+            <input id="buttom" type="submit" value="Cadastrar">           
+          </form>            
+          <form action="../index.html">
+            <input id="initial" type="submit" value="Página inicial">
+          </form>
+        </div>      
+    </section>
+  </main>
+  <footer>           
+      Feito com ♥ pela:
+      <a href="../know.html">Soft_Willer</a> 
+  </footer>
+</body>
+</html>
