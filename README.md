@@ -20,4 +20,4 @@ O Willer é um louco fanático iniciante no mundo da programação.
 
 - [Acesse o projeto em processo de desenvolvimento, online](https://github.com/luiswiller/luiswiller)
 
-Feito com ♥ by Soft_Willer :wave: [Siga meu portfólio!](https://github.com/luiswiller)
+Feito com ♥ by Luis Willer :wave: [Siga meu portfólio!](https://github.com/luiswiller)
