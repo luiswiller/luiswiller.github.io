@@ -8,20 +8,24 @@ header h1 {
   color: #db0707;  
   position: top;
   text-align: right;
-  margin-right: 340px; 
+  margin-right: 330px;
+
 }
 
 h2 {  
-  margin-top: 590px;
+  margin-top: 120px;
   color: #db0707;
   text-align: right;
-  margin-right: 140px;  
+  margin-right: 180px;  
+}
+
+h4 {  
+  margin-left: 130px;
 }
 
 #backgroundSoft {
   background-color: #000;
-  background-image: url(../assets/fundo.jpg);
-  background-size: 100%;
+  background-image: url(../assets/soft_willer.png);  
   background-repeat: no-repeat;  
   background-position: top;
   background-position-x: right;  
