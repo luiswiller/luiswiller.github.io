@@ -1,69 +1,65 @@
-* {  
+* {
   margin-top: 5px;
   margin-bottom: 0;
-  color: #db0707;  
+  color: #db0707;
 }
 
 header h1 {
-  color: #db0707;  
+  color: #db0707;
   position: top;
   text-align: right;
   margin-right: 330px;
-
 }
 
-h2 {  
+h2 {
   margin-top: 120px;
   color: #db0707;
   text-align: right;
-  margin-right: 180px;  
+  margin-right: 180px;
 }
 
-h4 {  
+h4 {
   margin-left: 130px;
 }
 
 #backgroundSoft {
   background-color: #000;
-  background-image: url(../assets/soft_willer.png);  
-  background-repeat: no-repeat;  
+  background-image: url(../assets/soft_willer.png);
+  background-repeat: no-repeat;
   background-position: top;
-  background-position-x: right;  
+  background-position-x: right;
 }
 
 #buttom {
-  background:#db0707;
-  font: bold 20px arial, sans-serif;  
-  color:#000;
-  border:3px solid #000;  
+  background: #db0707;
+  font: bold 20px arial, sans-serif;
+  color: #000;
+  border: 3px solid #000;
   text-transform: uppercase;
-  text-decoration: none;  
-  
-  
+  text-decoration: none;
+
   margin-top: 18px;
   margin-bottom: 10px;
-  border-radius: 20px;      
+  border-radius: 20px;
 }
 
 #buttom:hover {
-  background: rgba(255, 0, 0, 1.0);
-  outline: 6px solid rgba(255, 0, 0, 1.0);
+  background: rgba(255, 0, 0, 1);
+  outline: 6px solid rgba(255, 0, 0, 1);
   border-radius: 30px;
   cursor: pointer;
 }
 
-footer {  
+footer {
   text-align: center;
-  color: #db0707;         
+  color: #db0707;
   font: bold 15px arial, sans-serif;
-  
-    
 }
 
 footer a {
-  text-decoration: none;  
-  color: #db0707;  
-  margin-top: 530px;  
+  text-decoration: none;
+  color: #db0707;
+  margin-top: 530px;
 }
 
 footer a:hover {
@@ -75,6 +71,28 @@ footer a:hover {
 @media (max-width: 700px) {
   header h1 {
     font-size: 24px;
+    position: relative;
+  }
+}
+
+@media (max-width: 680px) {
+  header h1 {
+    font-size: 18px;
+    position: relative;
+  }
+}
+
+@media (max-width: 550px) {
+  header h1 {
+    font-size: 12px;
+    position: relative;
+  }
+}
+
+@media (max-width: 510px) {
+  header h1 {
+    font-size: 10px;
+    position: relative;
   }
 }
 
@@ -90,3 +108,29 @@ footer a:hover {
   }
 }
 
+@media (max-width: 510px) {
+  body h2 {
+    font-size: 10px;
+    margin-left: 2px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 510px) {
+  body h4 {
+    font-size: 10px;    
+  }
+}
+
+@media (max-width: 550px) {
+  body img {
+    width: 80%;
+    height: 80%;
+  }
+}
+
+@media (max-width: 550px) {
+ body h4 {
+  margin-top: 300px;
+ }
+}
