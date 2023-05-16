@@ -17,7 +17,7 @@
 
 .light {
   --text-color: black;
-  --footer-color: black;
+  --footer-color: black;  
   --bg-url: url(./assets/lightRed.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);

@@ -1,10 +1,10 @@
-* {  
+* {
   box-sizing: border-box;
 }
 
 #container {
   width: 100%;
-  max-width: 588px;  
+  max-width: 588px;
   margin: auto;
   padding: 0 24px;
 }
@@ -29,9 +29,9 @@ h3 {
 }
 
 #buttomInitial, #buttomForm, #buttomService, #buttomLogin {
-  background:#000;
+  background: #000;
   font: bold 20px arial, sans-serif;
-  color:#db0707;
+  color: #db0707;
   border: 2px solid #db0707;
   text-transform: uppercase;
   border-radius: 20px;
@@ -46,3 +46,62 @@ h3 {
   cursor: pointer;
 }
 
+.user, .pass {
+  color: #000;
+  text-align: left;
+  margin-left: 10px;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.user label {
+  margin: 5px;
+  font-size: 20px;
+}
+
+.user input {
+  margin: 5px;
+  font-size: 20px;
+}
+
+.pass label {
+  margin: 5px;
+  font-size: 20px;
+}
+
+.pass input {
+  margin: 5px;
+  font-size: 20px;
+}
+
+#enterInside {
+  background: #db0707;
+  padding: 20px;
+  position: fixed;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+#enterButtom, .voltar {
+  background: #000;
+  font: bold 20px arial, sans-serif;
+  color: #db0707;
+  border: 2px solid #db0707;
+  text-transform: uppercase;
+  border-radius: 20px;
+  margin-top: 5%;
+  margin-left: 20%;
+  
+  text-align:center;
+}
+
+#enterButtom:hover, .voltar:hover {  
+  outline: 6px solid rgba(255, 255, 255, 0.4);
+  border-radius: 30px;
+  cursor: pointer;
+}
