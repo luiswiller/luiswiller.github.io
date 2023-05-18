@@ -45,11 +45,11 @@ body * {
 /* profile */
 #profile {
   text-align: center;
-  padding: 24px;
+  padding: 12px;
 }
 
 #profile img {
-  width: 112px;
+  width: 68px;
 }
 
 #profile p {
