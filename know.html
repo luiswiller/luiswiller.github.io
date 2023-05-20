@@ -2,6 +2,9 @@
 <html lang="pt-br">
 
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet" />
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,56 +12,108 @@
 
   <link rel="stylesheet" href="./knowStyles.css">
 </head>
-<div id="container">
-  <div id="profile">
-    <img src="./assets/principal.png" alt="Logo Soft_Willer">
-  </div>
 
-  <body id="backgroundSoftWiller">
-    <div id="colorBody">
-      <h3>Em desenvolvimento (2023), pelo analista de sistemas Luis Carlos Willer, com o intuito de se lançar no mercado
-        de trabalho e de
-        se destacar na área tecnológica, a Soft_Willer é uma plataforma WEB sendo desenvolvida para uma melhor
-        experiência
-        de seus
-        programadores e clientes.</h3>
-      <footer>
-        <div class="buttom">
-          <form action="./index.html">
-            <input id="buttomInitial" type="submit" value="PÁGINA INICIAL">
-          </form>
-          <form action="/form/form.html">
-            <input id="buttomForm" type="submit" value="CADASTRO">
-          </form>
-          <form action="/service/service.html">
-            <input id="buttomService" type="submit" value="SERVIÇOS">
-          </form>
-          <form action="#enterInside">
-            <input onclick="chamar()" id="buttomLogin" type="button" value="LOGIN">
-          </form>
+<body>
+
+  <aside>
+    <div class="profiles">
+      <img src="./assets/principal.png" alt="Logo da Empresa">
+      <div id="container">
+        <div id="colorBody">
+          <h3>Em desenvolvimento (2023), pelo analista de sistemas Luis Carlos Willer, com o intuito de se lançar no
+            mercado
+            de trabalho e de
+            se destacar na área tecnológica, a Soft_Willer é uma plataforma WEB sendo desenvolvida para uma melhor
+            experiência
+            de seus programadores e clientes.</h3>
+          <footer>
+            <div class="buttom">
+              <form action="./index.html">
+                <input id="buttomInitial" type="submit" value="PÁGINA INICIAL">
+              </form>
+              <form action="/form/form.html">
+                <input id="buttomForm" type="submit" value="CADASTRO">
+              </form>
+              <form action="/service/service.html">
+                <input id="buttomService" type="submit" value="SERVIÇOS">
+              </form>
+              <form action="#enterInside">
+                <input onclick="chamar()" id="buttomLogin" type="button" value="LOGIN">
+              </form>
+            </div>
         </div>
+        <p class="logo">Feito com ❤️ pela Soft_Willer</p>
+        </footer>
+        <form id="enterInside" action="./login/inside.html">
+          <label class="user" for="email">USUÁRIO: </label>
+          <input class="user" name="email" type="email" required placeholder="Digite seu e-mail">
+          <label class="pass" for="password">SENHA: </label>
+          <input class="pass" name="password" type="password" required placeholder="Digite sua Senha">
+          <input id="enterButtom" type="submit" value="Acessar">
+          <button onclick="toClose()" class="voltar" type="button">Voltar</button>
+        </form>
+        <script>
+          function chamar() {
+            document.querySelector("#enterInside").style.opacity = 1;
+            document.querySelector("#colorBody").style.opacity = 0.2;
+          }
+          function toClose() {
+            document.querySelector("#colorBody").style.opacity = 1;
+            document.querySelector("#enterInside").style.opacity = 0;
+          }      
+        </script>
+      </div>
     </div>
-    <form id="enterInside" action="./login/inside.html">
-      <label class="user" for="email">USUÁRIO: </label>
-      <input class="user" name="email" type="email" required placeholder="Digite seu e-mail">
-      <label class="pass" for="password">SENHA: </label>
-      <input class="pass" name="password" type="password" required placeholder="Digite sua Senha">
-      <input id="enterButtom" type="submit" value="Acessar">
-      <button onclick="toClose()" class="voltar" type="button">Voltar</button>
-    </form>
-    <script>
-      function chamar() {
-        document.querySelector("#enterInside").style.opacity = 1;
-        document.querySelector("#colorBody").style.opacity = 0.2;
-      }
-      function toClose() {
-        document.querySelector("#colorBody").style.opacity = 1;
-        document.querySelector("#enterInside").style.opacity = 0;
-      }      
-    </script>
-
-    </footer>
-</div>
+  </aside>
+  <nav>
+    <a href="https://www.instagram.com/luiswiller/" target="_blank" class="memory">
+      <small>16 de maio de 2023</small>
+      <h1>Jornada do Zero à Primeira Vaga</h1>
+      <div>
+        <img src="./assets/work_.png" alt="presentation Avatar">
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi aliquid cupiditate iusto aliquam consequuntur
+        exercitationem similique eligendi beatae. Quas iusto repellat eos magnam. Quaerat, hic magni. Libero possimus
+        numquam quidem?
+      </p>
+    </a>
+    <a href="https://www.instagram.com/luiswiller/" target="_blank" class="memory">
+      <small>17 de maio de 2023</small>
+      <h1>Jornada do Zero à Primeira Vaga</h1>
+      <div>
+        <img src="./assets/work_.png" alt="Em desenvolvimento">
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi aliquid cupiditate iusto aliquam consequuntur
+        exercitationem similique eligendi beatae. Quas iusto repellat eos magnam. Quaerat, hic magni. Libero possimus
+        numquam quidem?
+      </p>
+    </a>
+    <a href="https://www.instagram.com/luiswiller/" target="_blank" class="memory">
+      <small>18 de maio de 2023</small>
+      <h1>Jornada do Zero à Primeira Vaga</h1>
+      <div>
+        <img src="./assets/work_.png" alt="Avatar Light Soft_Willer">
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi aliquid cupiditate iusto aliquam consequuntur
+        exercitationem similique eligendi beatae. Quas iusto repellat eos magnam. Quaerat, hic magni. Libero possimus
+        numquam quidem?
+      </p>
+    </a>
+    <a href="https://www.instagram.com/luiswiller/" target="_blank" class="memory">
+      <small>19 de maio de 2023</small>
+      <h1>Jornada do Zero à Primeira Vaga</h1>
+      <div>
+        <img src="./assets/work_.png" alt="Em desenvolvimento">
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi aliquid cupiditate iusto aliquam consequuntur
+        exercitationem similique eligendi beatae. Quas iusto repellat eos magnam. Quaerat, hic magni. Libero possimus
+        numquam quidem?
+      </p>
+    </a>
+  </nav>
 </body>
-
 </html>

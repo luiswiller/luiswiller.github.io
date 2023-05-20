@@ -31,3 +31,14 @@
   border-radius: 30px;
   cursor: pointer;
 }
+
+footer {
+  color: #db0707;
+  font: bold 20px arial;
+  text-align: center;  
+}
+
+footer a {
+  text-decoration: none;
+  color: #db0707;
+}
