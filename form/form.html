@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +7,6 @@
   <title>Cadastro</title>
   <link rel="stylesheet" href="./stylesForm.css">
 </head>
-
 <body>
   <header>
     <h1>SOFT_WILLER</h1>
@@ -20,16 +18,17 @@
           <div id="theCad">
             <label for="ctrl-cad">Preencha o Cadastro: </label>
           </div>
+          <div id="formCad">            
           <div>
-            <label for="ctrl-name">Nome completo: * </label>
+            <label for="ctrl-name">* Nome completo:</label>
             <input name="name" type="text" id="ctrl-name" required placeholder="Digite seu nome">
           </div>
           <div>
-            <label for="ctrl-email">e-mail: * </label>
+            <label for="ctrl-email">* e-mail:</label>
             <input name="email" type="email" id="ctrl-email" required placeholder="Digite seu e-mail">
           </div>
           <div>
-            <label for="ctrl-sex">Sexo: * </label>
+            <label for="ctrl-sex">* Sexo:</label>
             <select name="sex" id="ctrl-sex" required>
               <option value="1">Selecione</option>
               <option value="2">Masculino</option>
@@ -37,27 +36,27 @@
             </select>
           </div>
           <div>
-            <label for="ctrl-cpf">CPF: * </label>
+            <label for="ctrl-cpf">* CPF:</label>
             <input name="cpf" type="cpf" id="ctrl-cpf" required placeholder="Digite seu CPF">
           </div>
           <div>
-            <label for="ctrl-phone">Fone: * </label>
+            <label for="ctrl-phone">* Fone:</label>
             <input name="phone" type="phone" id="ctrl-phone" required placeholder="Digite seu telefone">
           </div>
           <div>
-            <label for="data">Nascimento: * </label>
+            <label for="data">* Nascimento:</label>
             <input type="date" id="data" required>
           </div>
           <div>
-            <label for="ctrl-address">Endereço: * </label>
+            <label for="ctrl-address">* Endereço:</label>
             <input name="address" type="address" id="ctrl-address" required placeholder="Digite o logradouro">
           </div>
           <div>
-            <label for="number">Número: *</label>
+            <label for="number">* Número:</label>
             <input type="number" id="number" min="1" max="300" placeholder="Ex.: 123">
           </div>
           <div>
-            <label for="ctrl-city">Cidade: * </label>
+            <label for="ctrl-city">* Cidade:</label>
             <select name="city" id="ctrl-city" required>
               <option value="1">Selecione</option>
               <option value="2">Treze Tílias</option>
@@ -81,7 +80,7 @@
             </select>
           </div>
           <div>
-            <label for="ctrl-state">Estado: * </label>
+            <label for="ctrl-state">* Estado:</label>
             <select name="state" id="ctrl-state" required>
               <option value="1">Selecione</option>
               <option value="2">Santa Catarina</option>
@@ -96,7 +95,7 @@
             </select>
           </div>
           <div>
-            <label for="ctrl-country">País: * </label>
+            <label for="ctrl-country">* País:</label>
             <select name="ctrl-country" id="ctrl-country" required>
               <option value="1">Selecione</option>
               <option value="2">Brasil</option>
@@ -111,12 +110,13 @@
             </select>
           </div>
           <div>
-            <label for="ctrl-job">Profissão: * </label>
+            <label for="ctrl-job">* Profissão:</label>
             <input name="job" type="job" id="ctrl-job" required placeholder="Digite sua profissão">
           </div><br>
           <div>
-            <label for="ctrl-level">Escolaridade: * </label>
-
+            <div class="study">
+              <label for="ctrl-level">* Escolaridade:</label>
+            </div>            
             <div>
               <input type="radio" name="level" id="ctrl-level-1">
               <label for="ctrl-level-1">Fundamental</label>
@@ -124,13 +124,13 @@
               <label for="ctrl-level-2">Médio</label>
               <input type="radio" name="level" id="ctrl-level-3">
               <label for="ctrl-level-3">Superior</label>
-            </div>
+            </div>          
           </div>
           <div class="data">
             <p>* Dados obrigatórios</p>
           </div>
+          </div>
         </div>
-
         <div id="languages">
           <label for="ctrl-languages">Linguagens que você conhece: </label>
           <div id="ctrl-languages">
@@ -157,11 +157,11 @@
         <div class="password">
           <h2 class="passwordTitle">Senha</h2>
           <div>
-            <label for="ctrl-password">Crie uma Senha: * </label>
+            <label for="ctrl-password">* Crie uma Senha:</label><br>
             <input name="password" type="password" id="ctrl-password" required placeholder="Digite uma senha">
-          </div>
+          </div><br>
           <div>
-            <label for="ctrl-repeatPassword">Repita sua Senha: * </label>
+            <label for="ctrl-repeatPassword">* Repita sua Senha:</label><br>
             <input name="password" type="password" id="ctrl-repeatPassword" required placeholder="Repita sua senha">
           </div>
           <div class="data">
@@ -180,7 +180,7 @@
     </section>
   </main>
   <footer>
-    Feito com ❤️ pela:
+    Desenvolvido com ❤️ pela:
     <a href="../know.html">Soft_Willer</a>
   </footer>
 </body>
