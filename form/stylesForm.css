@@ -1,12 +1,16 @@
-
 header h1 {
   background: #db0707;  
   padding: 5px; 
-  text-align: center;
-  
+  text-align: center;  
   font: bold 30px arial, #db0707, sans-serif;  
   font-style: italic;
   border:2px solid;
+  border-radius: 10px;
+  position: fixed;
+  top: 0;
+  left: 10px;
+  right: 10px;
+  
 }
 
 #input {
@@ -15,19 +19,16 @@ header h1 {
   background-image: url(../assets/technologies_.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 600px;
-  font: bold 15px arial, sans-serif;
-  color: #db0707;
-  margin: auto;
+  background-size: 900px;
+  font: bold 20px arial, sans-serif;
+  color: #db0707;  
   padding: 25px;
-  border:2px solid;  
+  border:2px solid;
+  border-radius: 10px;
+  margin-top: 90px; 
 }
 
-#input label {
-  margin: 5px;
-}
-
-#input input {  
+#input label, input {
   margin: 5px;
 }
 
@@ -100,17 +101,6 @@ header h1 {
   cursor: pointer;  
 }
 
-#education {
-  background:#000;
-  margin-top: 5px;
-  padding: 3px; 
-  font: bold 15px arial, sans-serif;
-  color: #db0707;
-  border:2px solid;
-  font-size: 20px;
-  font-style: italic;
-}
-
 #languages {
   background:#000;
   margin-top: 5px;
@@ -118,6 +108,7 @@ header h1 {
   font: bold 20px arial, sans-serif;
   color: #db0707;
   border:2px solid;
+  border-radius: 10px;  
 }
 
 #ctrl-languages {
@@ -132,7 +123,8 @@ header h1 {
   padding: 5px;
   border: 2px solid;
   position: relative;    
-  text-align: left;
+  text-align: center;
+  border-radius: 10px;
 }
 
 .password label {
@@ -158,7 +150,8 @@ header h1 {
   border: 2px solid #db0707;
   text-align: center;
   font-size: 30px;
-  display: flex;  
+  display: flex;
+  border-radius: 10px;
 }
 
 #buttomReset, #buttomSubmit, #buttomInitial {
@@ -169,6 +162,7 @@ header h1 {
   text-transform: uppercase;
   border-radius: 20px;
   margin: 10px;
+  position: center;
 }
 
 #buttomReset:hover, #buttomSubmit:hover, #buttomInitial:hover {
@@ -191,7 +185,8 @@ footer {
   margin-top: 5px; 
   font: bold 15px arial, sans-serif;
   color: #db0707;
-  border:2px solid;  
+  border:2px solid;
+  border-radius: 10px;  
 }
 
 footer a {

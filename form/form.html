@@ -11,10 +11,10 @@
 
 <body>
   <header>
-    <h1>Faça parte da SOFT_WILLER</h1>
+    <h1>SOFT_WILLER</h1>
   </header>
   <main>
-    <section>      
+    <section>
       <form action="thanks.html">
         <div id="input">
           <div id="theCad">
@@ -26,7 +26,7 @@
           </div>
           <div>
             <label for="ctrl-email">e-mail: * </label>
-            <input name="email" type="email" id="ctrl-email" required placeholder="Digite seu email">
+            <input name="email" type="email" id="ctrl-email" required placeholder="Digite seu e-mail">
           </div>
           <div>
             <label for="ctrl-sex">Sexo: * </label>
@@ -47,6 +47,14 @@
           <div>
             <label for="data">Nascimento: * </label>
             <input type="date" id="data" required>
+          </div>
+          <div>
+            <label for="ctrl-address">Endereço: * </label>
+            <input name="address" type="address" id="ctrl-address" required placeholder="Digite o logradouro">
+          </div>
+          <div>
+            <label for="number">Número: *</label>
+            <input type="number" id="number" min="1" max="300" placeholder="Ex.: 123">
           </div>
           <div>
             <label for="ctrl-city">Cidade: * </label>
@@ -105,19 +113,24 @@
           <div>
             <label for="ctrl-job">Profissão: * </label>
             <input name="job" type="job" id="ctrl-job" required placeholder="Digite sua profissão">
-          </div>
-        </div>
-        <div id="education">
-          <label for="ctrl-level">Escolaridade: * </label>
+          </div><br>
           <div>
-            <input type="radio" name="level" id="ctrl-level-1">
-            <label for="ctrl-level-1">Fundamental</label>
-            <input type="radio" name="level" id="ctrl-level-2">
-            <label for="ctrl-level-2">Médio</label>
-            <input type="radio" name="level" id="ctrl-level-3">
-            <label for="ctrl-level-3">Superior</label>
+            <label for="ctrl-level">Escolaridade: * </label>
+
+            <div>
+              <input type="radio" name="level" id="ctrl-level-1">
+              <label for="ctrl-level-1">Fundamental</label>
+              <input type="radio" name="level" id="ctrl-level-2">
+              <label for="ctrl-level-2">Médio</label>
+              <input type="radio" name="level" id="ctrl-level-3">
+              <label for="ctrl-level-3">Superior</label>
+            </div>
+          </div>
+          <div class="data">
+            <p>* Dados obrigatórios</p>
           </div>
         </div>
+
         <div id="languages">
           <label for="ctrl-languages">Linguagens que você conhece: </label>
           <div id="ctrl-languages">
