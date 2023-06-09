@@ -133,12 +133,15 @@ header h1 {
 
 .password {
   background:#000;
+  background-image: url(../assets/principal.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 200px;  
   font: bold 15px arial, sans-serif;
   color: #db0707;
   margin-top: 4px;
   padding-top: 10px;
-  border: 2px solid;
-  position: relative;    
+  border: 2px solid;     
   text-align: center;
   border-radius: 10px;
 }
