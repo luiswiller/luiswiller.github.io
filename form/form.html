@@ -12,9 +12,13 @@
     <h1>SOFT_WILLER</h1>
   </header>
   <main>
-    <section>
+    <section>      
       <form action="thanks.html">
         <div id="input">
+          <section class="background-section-img">
+            <div class="left-background"></div>
+            <div class="right-background"></div>
+          </section>
           <div id="theCad">
             <label for="ctrl-cad">Preencha o Cadastro: </label>
           </div>
@@ -112,12 +116,12 @@
           <div>
             <label for="ctrl-job">* Profissão:</label>
             <input name="job" type="job" id="ctrl-job" required placeholder="Digite sua profissão">
-          </div><br>
+          </div><br>          
           <div>
-            <div class="study">
-              <label for="ctrl-level">* Escolaridade:</label>
-            </div>            
             <div>
+              <label for="ctrl-level">* Escolaridade:</label>
+            </div><br>
+            <div class="scholarity">
               <input type="radio" name="level" id="ctrl-level-1">
               <label for="ctrl-level-1">Fundamental</label>
               <input type="radio" name="level" id="ctrl-level-2">
@@ -125,12 +129,9 @@
               <input type="radio" name="level" id="ctrl-level-3">
               <label for="ctrl-level-3">Superior</label>
             </div>          
+          </div>          
           </div>
-          <div class="data">
-            <p>* Dados obrigatórios</p>
-          </div>
-          </div>
-        </div>
+        </div>        
         <div id="languages">
           <label for="ctrl-languages">Linguagens que você conhece: </label>
           <div id="ctrl-languages">
@@ -170,13 +171,12 @@
         </div>
         <div class="doubleButtom">
           <input id="buttomReset" type="reset" name="reset" value="Limpar">
-
-          <input id="buttomSubmit" type="submit" name="submit" value="Cadastrar">
-      </form>
+          <input id="buttomSubmit" type="submit" name="submit" value="Cadastrar">      
       <form action="../index.html">
         <input id="buttomInitial" type="submit" name="back" value="Página inicial">
       </form>
       </div>
+      </form>
     </section>
   </main>
   <footer>
