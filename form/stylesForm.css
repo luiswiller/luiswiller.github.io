@@ -14,7 +14,7 @@ header h1 {
 }
 
 #input {
-  background: #000000;
+  background: #000000;  
   background-image: url(../assets/technologies_.png);
   background-repeat: no-repeat;
   background-position: right;
@@ -35,7 +35,7 @@ header h1 {
 
 #theCad {
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -128,7 +128,7 @@ header h1 {
 }
 
 #ctrl-languages {
-  margin-top: 5px;
+  margin-top: 20px;
 }
 
 .password {
@@ -136,8 +136,8 @@ header h1 {
   background-image: url(../assets/principal.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 200px;
-  padding: 50px;
+  background-size: 250px;  
+  padding: 200px;
   font: bold 15px arial, sans-serif;
   color: #db0707;
   margin-top: 4px;
@@ -149,13 +149,13 @@ header h1 {
 
 .password label {
   margin: 5px;
-  margin-right: 360px;
+  margin-right: 260px;
 }
 
 .password input {  
   margin: 5px;
   border-radius: 10px;
-  margin-right: 300px;
+  margin-right: 200px;
   font-size: 18px;
 }
 
@@ -164,8 +164,8 @@ header h1 {
   text-transform: uppercase;
   text-align: right;
   margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 390px;
+  margin-bottom: 20px;
+  margin-right: 290px;
 }
 
 .doubleButtom {    
@@ -194,6 +194,10 @@ header h1 {
   outline: 6px solid rgba(255, 255, 255, 0.2);
   border-radius: 30px;
   cursor: pointer;
+}
+
+.form-InitialButtom {
+  display: inline;
 }
 
 .data p {
