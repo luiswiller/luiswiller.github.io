@@ -145,8 +145,8 @@ input {
   background: #000;
   background-image: url(../assets/principal.png);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 250px;
+  background-position: center;  
+  background-size: 260px;
   padding: 200px;
   font: bold 15px arial, sans-serif;
   color: #db0707;

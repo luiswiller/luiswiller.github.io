@@ -14,55 +14,54 @@
 </head>
 
 <body>
-
   <aside>
     <div class="profiles">
       <img src="./assets/principal.png" alt="Logo da Empresa">
-      <div id="container">
-        <div id="colorBody">
-          <h3>Em desenvolvimento (2023), pelo analista de sistemas Luis Carlos Willer, com o intuito de se lançar no
-            mercado
-            de trabalho e de
-            se destacar na área tecnológica, a Soft_Willer é uma plataforma WEB sendo desenvolvida para uma melhor
-            experiência
-            de seus programadores e clientes.</h3>
-          <footer>
-            <div class="buttom">
-              <form action="./index.html">
-                <input id="buttomInitial" type="submit" value="PÁGINA INICIAL">
-              </form>
-              <form action="/form/form.html">
-                <input id="buttomForm" type="submit" value="CADASTRO">
-              </form>
-              <form action="/service/service.html">
-                <input id="buttomService" type="submit" value="SERVIÇOS">
-              </form>
-              <form action="#enterInside">
-                <input onclick="chamar()" id="buttomLogin" type="button" value="LOGIN">
-              </form>
-            </div>
-        </div>
-        <p class="logo">Desenvolvido com ❤️ pela Soft_Willer</p>
-        </footer>
-        <form id="enterInside" action="./login/inside.html">
-          <label class="user" for="email">USUÁRIO: </label>
-          <input class="user" name="email" type="email" required placeholder="Digite seu e-mail">
-          <label class="pass" for="password">SENHA: </label>
-          <input class="pass" name="password" type="password" required placeholder="Digite sua Senha">
-          <input id="enterButtom" type="submit" value="Acessar">
-          <button onclick="toClose()" class="voltar" type="button">Voltar</button>
-        </form>
-        <script>
-          function chamar() {
-            document.querySelector("#enterInside").style.opacity = 1;
-            document.querySelector("#colorBody").style.opacity = 0.2;
-          }
-          function toClose() {
-            document.querySelector("#colorBody").style.opacity = 1;
-            document.querySelector("#enterInside").style.opacity = 0;
-          }      
-        </script>
+    </div>
+    <div id="container">
+      <div id="colorBody">
+        <h3>Em desenvolvimento (2023), pelo analista de sistemas Luis Carlos Willer, com o intuito de se lançar no
+          mercado
+          de trabalho e de
+          se destacar na área tecnológica, a Soft_Willer é uma plataforma WEB sendo desenvolvida para uma melhor
+          experiência
+          de seus programadores e clientes.</h3>
+        <footer>
+          <div class="buttom">
+            <form action="./index.html">
+              <input id="buttomInitial" type="submit" value="PÁGINA INICIAL">
+            </form>
+            <form action="/form/form.html">
+              <input id="buttomForm" type="submit" value="CADASTRO">
+            </form>
+            <form action="/service/service.html">
+              <input id="buttomService" type="submit" value="SERVIÇOS">
+            </form>
+            <form action="#enterInside">
+              <input onclick="chamar()" id="buttomLogin" type="button" value="LOGIN">
+            </form>
+          </div>
       </div>
+      <p class="logo">Desenvolvido com ❤️ pela Soft_Willer</p>
+      </footer>
+      <form id="enterInside" action="./login/inside.html">
+        <label class="user" for="email">USUÁRIO: </label>
+        <input class="user" name="email" type="email" required placeholder="Digite seu e-mail">
+        <label class="pass" for="password">SENHA: </label>
+        <input class="pass" name="password" type="password" required placeholder="Digite sua Senha">
+        <input id="enterButtom" type="submit" value="Acessar">
+        <button id="closeButtom" onclick="toClose()" class="voltar" type="button">Voltar</button>
+      </form>
+      <script>
+        function chamar() {
+          document.querySelector("#enterInside").style.opacity = 1;
+          document.querySelector("#colorBody").style.opacity = 0.2;
+        }
+        function toClose() {
+          document.querySelector("#colorBody").style.opacity = 1;
+          document.querySelector("#enterInside").style.opacity = 0;
+        }      
+      </script>
     </div>
   </aside>
   <nav>
@@ -116,4 +115,5 @@
     </a>
   </nav>
 </body>
+
 </html>

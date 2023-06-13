@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  font-size: 16px;
-}
-
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -35,13 +31,12 @@
   width: 100%;
   max-width: 588px;
   margin: auto;
-  padding: 0 24px;
+  padding: 0;
 }
 
 body {
   background-color: #000;
   font-family: "Inter", sans-serif;
-
   display: grid;
   grid-template-areas: "profiles timeline";
   grid-template-columns: 1fr 1fr;
@@ -55,7 +50,7 @@ h3 {
 }
 
 .buttom {
-  display: flex;
+  display: flex;  
 }
 
 #buttomInitial,
@@ -69,6 +64,7 @@ h3 {
   text-transform: uppercase;
   border-radius: 20px;
   margin: 10px;
+  padding: 5px;
   display: flex;
 }
 
@@ -80,6 +76,10 @@ h3 {
   outline: 6px solid rgba(255, 255, 255, 0.2);
   border-radius: 30px;
   cursor: pointer;
+}
+
+#enterButtom, #closeButtom {
+  padding: 5px;
 }
 
 .user,
@@ -151,6 +151,7 @@ h3 {
   color: #db0707;
   font: bold 20px arial;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 nav {
