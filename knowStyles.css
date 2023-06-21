@@ -30,8 +30,6 @@
 #container {
   width: 100%;
   max-width: 588px;
-  margin: auto;
-  padding: 0;
 }
 
 body {
@@ -50,7 +48,7 @@ h3 {
 }
 
 .buttom {
-  display: flex;  
+  display: flex;
 }
 
 #buttomInitial,
@@ -212,35 +210,20 @@ aside {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
-
+  gap: 0;
   border-right: 1px solid;
   border-image: linear-gradient(#727275, #2c2c31) 1;
   animation: entering 0.7s ease-in-out;
 }
 
 aside img {
-  width: 520px;
-  height: 520px;
+  margin-top: 80px;
 }
 
 @media (max-width: 768px) {
   :root {
     font-size: 14px;
-  }
-
-  body {
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.2fr 0.8fr;
-    grid-template-areas:
-      "profiles"
-      "timeline";
-  }
-
-  aside {
-    border-right: none;
-    padding: 32px 12px;
-  }
+  } 
 
   nav {
     overflow-y: visible;
