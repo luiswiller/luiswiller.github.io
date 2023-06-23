@@ -29,7 +29,7 @@
 
 #container {
   width: 100%;
-  max-width: 588px;
+  max-width: 560px;
 }
 
 body {
@@ -165,7 +165,7 @@ nav {
   flex-direction: column;
   gap: 16px;
   text-decoration: none;
-  margin-bottom: 64px;
+  margin-bottom: 10px;
 }
 
 .memory small {
@@ -217,7 +217,10 @@ aside {
 }
 
 aside img {
-  margin-top: 80px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  width: 90%;
+  height: 90%;
 }
 
 @media (max-width: 768px) {
