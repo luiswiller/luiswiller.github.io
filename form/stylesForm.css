@@ -10,6 +10,7 @@ header h1 {
   top: 0;
   left: 10px;
   right: 10px;
+  z-index: 9999;
 }
 
 #input {
@@ -112,7 +113,7 @@ input {
 }
 
 #music {
-  
+  z-index: 999;
 }
 
 .data1 p {
