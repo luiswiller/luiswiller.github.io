@@ -165,7 +165,7 @@ ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 16px;
+  padding: 14px;
 
   transition: background 0.2s;
   border-radius: 50%;
@@ -188,7 +188,7 @@ footer {
 footer a {
   color: var(--footer-color);
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 8px;
 }
 

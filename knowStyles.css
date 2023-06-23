@@ -27,11 +27,6 @@
   }
 }
 
-#container {
-  width: 100%;
-  max-width: 560px;
-}
-
 body {
   background-color: #000;
   font-family: "Inter", sans-serif;
@@ -44,7 +39,13 @@ body {
 h3 {
   color: red;
   text-align: center;
-  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0;
+}
+
+.myLink {
+  color: #db0707;
 }
 
 .buttom {
@@ -76,7 +77,8 @@ h3 {
   cursor: pointer;
 }
 
-#enterButtom, #closeButtom {
+#enterButtom,
+#closeButtom {
   padding: 5px;
 }
 
@@ -90,38 +92,24 @@ h3 {
   font-weight: bold;
 }
 
-.user label {
-  margin: 5px;
-  font-size: 1.25rem;
-}
-
-.user input {
-  margin: 5px;
-  font-size: 1.25rem;
-}
-
-.pass label {
-  margin: 5px;
-  font-size: 1.25rem;
-}
-
-.pass input {
-  margin: 5px;
-  font-size: 1.25rem;
-}
-
 #enterInside {
   background: #000;
   box-sizing: border-box;
   width: 750px;
   padding: 10px;
   position: fixed;
-  top: 82%;
+  top: 62%;
   left: 25%;
   transform: translate(-50%, -50%);
   border-radius: 10px;
   opacity: 0;
   transition: opacity 1s;
+}
+
+.buttom {
+  margin-left: 100px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #enterButtom,
@@ -217,7 +205,7 @@ aside {
 }
 
 aside img {
-  margin-top: 30px;
+  margin-top: 15px;
   margin-bottom: 0;
   width: 90%;
   height: 90%;
@@ -226,7 +214,7 @@ aside img {
 @media (max-width: 768px) {
   :root {
     font-size: 14px;
-  } 
+  }
 
   nav {
     overflow-y: visible;
