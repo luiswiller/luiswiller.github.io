@@ -7,15 +7,15 @@
 header h1 {
   color: #db0707;
   position: top;
-  text-align: right;
+  text-align: center;
   margin-right: 330px;
 }
 
 h2 {
-  margin-top: 120px;
+  margin-top: 80px;
   color: #db0707;
   text-align: right;
-  margin-right: 180px;
+  margin-right: 220px;
 }
 
 h4 {
@@ -25,6 +25,7 @@ h4 {
 #backgroundSoft {
   background-color: #000;
   background-image: url(../assets/soft_willer.png);
+  margin-top: 20px;
   background-repeat: no-repeat;
   background-position: top;
   background-position-x: right;
@@ -37,8 +38,8 @@ h4 {
   border: 3px solid #000;
   text-transform: uppercase;
   text-decoration: none;
-
-  margin-top: 18px;
+  margin-left: 30px;
+  margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 20px;
 }
@@ -53,17 +54,20 @@ h4 {
 footer {
   text-align: center;
   color: #db0707;
-  font: bold 15px arial, sans-serif;
+  font: bold 18px arial, sans-serif;
 }
 
 footer a {
+  font: bold 20px arial, sans-serif;
+  border: 2px solid #e90606ea;
+  border-radius: 20px;
+  padding: 3px;
+  margin-right: 10px;
   text-decoration: none;
   color: #db0707;
-  margin-top: 530px;
 }
 
-footer a:hover {
-  background: rgba(255, 255, 255, 0.2);
+footer a:hover {  
   outline: 6px solid rgba(255, 255, 255, 0.2);
   border-radius: 30px;
 }

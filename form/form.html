@@ -11,14 +11,14 @@
 
 <body>
   <header>
-    <h1>SOFT_WILLER</h1>
+    <h1>SOFT-WILLER</h1>
   </header>
   <main>
     <section>
       <form action="thanks.html">
         <div id="input">
           <div id="theCad">
-            <label for="ctrl-cad">Preencha o Cadastro: </label>
+            <label for="ctrl-cad"><h2>Preencha o cadastro: </h2></label>
           </div>
           <div id="formCad">
             <div>
@@ -26,7 +26,7 @@
               <input name="name" type="text" id="ctrl-name" required placeholder="Digite seu nome" autofocus>
             </div>
             <div>
-              <label for="ctrl-email">* e-mail:</label>
+              <label for="ctrl-email">* E-mail:</label>
               <input name="email" type="email" id="ctrl-email" required placeholder="Digite seu melhor e-mail">
             </div>
             <div>
@@ -125,131 +125,133 @@
                 <input type="radio" name="level" id="ctrl-level-2">
                 <label for="ctrl-level-2">Médio</label>
                 <input type="radio" name="level" id="ctrl-level-3">
-                <label for="ctrl-level-3">Superior</label>
+                <label for="ctrl-level-3">Superior Completo</label>
               </div>
             </div>
             <div id="music">
               <audio controls src="../music/music.mp3" type="music/mpeg"></audio>
             </div>
+          </div>               
+          <div id="languages">
+            <label for="ctrl-languages"> <h2>Conte-nos quais tecnologias lhe interessam mais!</h2> </label>
+            <p>Confira inclusive uma breve explicação de cada tecnologia contida em sua descrição, clicando sobre o título
+              da mesma:</p>
+            <div id="ctrl-languages">
+              <input id="ctrl-languages-htmlcss" name="language1" type="checkbox">
+              <label for="ctrl-languages-htmlcss">
+                <details>
+                  <summary>HTML e CSS &larr;</summary>
+                  <p>HTML e CSS são frequentemente usados em conjunto para criar páginas da web interativas e visualmente
+                    atraentes. O HTML é responsável por definir a estrutura e o conteúdo da página, enquanto o CSS é
+                    responsável por definir o estilo e a aparência dos elementos HTML.</p>
+                </details>
+              </label>
+              <input id="ctrl-languages-github" name="language2" type="checkbox">
+              <label for="ctrl-languages-github">
+                <details>
+                  <summary>Git e GitHub &larr;</summary>
+                  <p>Git: É um sistema de controle de versão distribuído e amplamente utilizado. Ele permite que você
+                    acompanhe as alterações feitas em arquivos e diretorias ao longo do tempo, facilitando o controle do
+                    histórico de desenvolvimento de um projeto.</p>
+                  <p>GitHub: É uma plataforma baseada em nuvem que hospeda projetos Git. Ele fornece um ambiente para
+                    armazenar, colaborar e gerenciar projetos de software.</p>
+                </details>
+              </label>
+              <input id="ctrl-languages-java" name="language3" type="checkbox">
+              <label for="ctrl-languages-java">
+                <details>
+                  <summary>Java &larr;</summary>
+                  <p>Java é uma linguagem de programação de propósito geral, orientada a objetos e com forte ênfase em
+                    portabilidade e segurança. Ela foi desenvolvida pela Sun Microsystems (agora pertencente à Oracle) e
+                    lançada em 1995. Desde então, tornou-se uma das linguagens mais populares e amplamente usadas no mundo
+                    do desenvolvimento de software.</p>
+                </details>
+              </label>
+              <input id="ctrl-languages-c" name="language4" type="checkbox">
+              <label for="ctrl-languages-c">
+                <details>
+                  <summary>C &larr;</summary>
+                  <p>C é uma linguagem de programação de propósito geral criada por Dennis Ritchie no início da década de
+                    1970. Ela é conhecida por sua eficiência, flexibilidade e baixo nível de abstração, o que a torna uma
+                    escolha popular para o desenvolvimento de sistemas operacionais, drivers de dispositivos, compiladores
+                    e outros softwares que exigem um controle próximo do hardware.</p>
+                </details>
+              </label>
+              <input id="ctrl-languages-c++" name="language5" type="checkbox">
+              <label for="ctrl-languages-c++">
+                <details>
+                  <summary>C++ &larr;</summary>
+                  <p>C++ é uma linguagem de programação de propósito geral que foi desenvolvida como uma extensão da
+                    linguagem C. Ela foi criada por Bjarne Stroustrup no início da década de 1980, com o objetivo de
+                    adicionar recursos de programação orientada a objetos à linguagem C e fornecer suporte para
+                    programação genérica.</p>
+                </details>
+              </label>
+              <input id="ctrl-languages-csharp" name="language6" type="checkbox">
+              <label for="ctrl-languages-csharp">
+                <details>
+                  <summary>C# &larr;</summary>
+                  <p>C# (lê-se "C sharp") é uma linguagem de programação moderna e de propósito geral desenvolvida pela
+                    Microsoft. Ela foi introduzida no início dos anos 2000 como parte da plataforma .NET Framework e,
+                    desde então, tem se tornado uma das linguagens mais populares para o desenvolvimento de aplicativos
+                    Windows, aplicativos móveis e serviços web.</p>
+                </details>
+              </label>
+              <input id="ctrl-languages-js" name="language7" type="checkbox">
+              <label for="ctrl-languages-js">
+                <details>
+                  <summary>JavaScript &larr;</summary>
+                  <p>JavaScript é uma linguagem de programação de alto nível, interpretada e orientada a objetos. Ela foi
+                    originalmente desenvolvida para adicionar interatividade a páginas web, permitindo que os
+                    desenvolvedores criem recursos dinâmicos e interativos que são executados diretamente no navegador do
+                    usuário.
+                    Uma das principais características do JavaScript é sua capacidade de manipular elementos HTML e CSS em
+                    tempo real. Com JavaScript, é possível criar efeitos visuais, validar formulários, responder a eventos
+                    do usuário (como cliques e movimentos do mouse) e realizar atualizações de conteúdo sem a necessidade
+                    de recarregar a página.</p>
+                </details>
+              </label>
+              <input id="ctrl-languages-python" name="language8" type="checkbox">
+              <label for="ctrl-languages-python">
+                <details>
+                  <summary>Python &larr;</summary>
+                  <p>Python é uma linguagem de programação de alto nível, interpretada e de propósito geral. Ela foi
+                    criada por Guido van Rossum e lançada pela primeira vez em 1991. Python é conhecida por sua sintaxe
+                    limpa e legível, que facilita a leitura e a escrita do código, tornando-a uma ótima opção para
+                    iniciantes em programação.</p>
+                </details>
+              </label>
+              <input id="ctrl-languages-php" name="language9" type="checkbox">
+              <label for="ctrl-languages-php">
+                <details>
+                  <summary>PHP &larr;</summary>
+                  <p>PHP é uma linguagem de programação de código aberto, amplamente utilizada para o desenvolvimento de
+                    aplicativos web dinâmicos. Ela foi criada por Rasmus Lerdorf no final dos anos 1990 e é uma das
+                    linguagens mais populares para a construção de sites e sistemas de gerenciamento de conteúdo.</p>
+                </details>
+              </label>
+          </div>                      
           </div>
-          <div class="data">
-            <p>* Dados obrigatórios</p>
-          </div>
-        </div>
-        <div class="password">
-          <h2 class="passwordTitle">Senha</h2>
-          <div>
-            <label for="ctrl-password">* Crie uma Senha:</label><br>
-            <input name="password" type="password" id="ctrl-password" required placeholder="Digite uma senha">
-          </div><br>
-          <div>
+          <div class="passPosition">
+          <h2 class="passwordTitle">Senha</h2>          
+          <label for="ctrl-password">* Crie uma Senha:</label><br>
+          <input name="password" type="password" id="ctrl-password" required placeholder="Digite uma senha">
+          <br>
+          
             <label for="ctrl-repeatPassword">* Repita sua Senha:</label><br>
             <input name="password" type="password" id="ctrl-repeatPassword" required placeholder="Repita sua senha">
+          
+          <div class="doubleButtom">
+            <input id="buttomReset" type="reset" name="reset" value="Limpar">
+            <input id="buttomSubmit" type="submit" name="submit" value="Cadastrar">
           </div>
-        </div>
-        <div id="languages">
-          <label for="ctrl-languages">Conte-nos quais tecnologias lhe interessam mais! </label>
-          <p>Confira inclusive uma breve explicação de cada tecnologia contida em sua descrição, clicando sobre o título
-            da mesma:</p>
-          <div id="ctrl-languages">
-            <input id="ctrl-languages-htmlcss" name="language1" type="checkbox">
-            <label for="ctrl-languages-htmlcss">
-              <details>
-                <summary>HTML e CSS &larr;</summary>
-                <p>HTML e CSS são frequentemente usados em conjunto para criar páginas da web interativas e visualmente
-                  atraentes. O HTML é responsável por definir a estrutura e o conteúdo da página, enquanto o CSS é
-                  responsável por definir o estilo e a aparência dos elementos HTML.</p>
-              </details>
-            </label>
-            <input id="ctrl-languages-github" name="language2" type="checkbox">
-            <label for="ctrl-languages-github">
-              <details>
-                <summary>Git e GitHub &larr;</summary>
-                <p>Git: É um sistema de controle de versão distribuído e amplamente utilizado. Ele permite que você
-                  acompanhe as alterações feitas em arquivos e diretorias ao longo do tempo, facilitando o controle do
-                  histórico de desenvolvimento de um projeto.</p>
-                <p>GitHub: É uma plataforma baseada em nuvem que hospeda projetos Git. Ele fornece um ambiente para
-                  armazenar, colaborar e gerenciar projetos de software.</p>
-              </details>
-            </label>
-            <input id="ctrl-languages-java" name="language3" type="checkbox">
-            <label for="ctrl-languages-java">
-              <details>
-                <summary>Java &larr;</summary>
-                <p>Java é uma linguagem de programação de propósito geral, orientada a objetos e com forte ênfase em
-                  portabilidade e segurança. Ela foi desenvolvida pela Sun Microsystems (agora pertencente à Oracle) e
-                  lançada em 1995. Desde então, tornou-se uma das linguagens mais populares e amplamente usadas no mundo
-                  do desenvolvimento de software.</p>
-              </details>
-            </label>
-            <input id="ctrl-languages-c" name="language4" type="checkbox">
-            <label for="ctrl-languages-c">
-              <details>
-                <summary>C &larr;</summary>
-                <p>C é uma linguagem de programação de propósito geral criada por Dennis Ritchie no início da década de
-                  1970. Ela é conhecida por sua eficiência, flexibilidade e baixo nível de abstração, o que a torna uma
-                  escolha popular para o desenvolvimento de sistemas operacionais, drivers de dispositivos, compiladores
-                  e outros softwares que exigem um controle próximo do hardware.</p>
-              </details>
-            </label>
-            <input id="ctrl-languages-c++" name="language5" type="checkbox">
-            <label for="ctrl-languages-c++">
-              <details>
-                <summary>C++ &larr;</summary>
-                <p>C++ é uma linguagem de programação de propósito geral que foi desenvolvida como uma extensão da
-                  linguagem C. Ela foi criada por Bjarne Stroustrup no início da década de 1980, com o objetivo de
-                  adicionar recursos de programação orientada a objetos à linguagem C e fornecer suporte para
-                  programação genérica.</p>
-              </details>
-            </label>
-            <input id="ctrl-languages-csharp" name="language6" type="checkbox">
-            <label for="ctrl-languages-csharp">
-              <details>
-                <summary>C# &larr;</summary>
-                <p>C# (lê-se "C sharp") é uma linguagem de programação moderna e de propósito geral desenvolvida pela
-                  Microsoft. Ela foi introduzida no início dos anos 2000 como parte da plataforma .NET Framework e,
-                  desde então, tem se tornado uma das linguagens mais populares para o desenvolvimento de aplicativos
-                  Windows, aplicativos móveis e serviços web.</p>
-              </details>
-            </label>
-            <input id="ctrl-languages-js" name="language7" type="checkbox">
-            <label for="ctrl-languages-js">
-              <details>
-                <summary>JavaScript &larr;</summary>
-                <p>JavaScript é uma linguagem de programação de alto nível, interpretada e orientada a objetos. Ela foi
-                  originalmente desenvolvida para adicionar interatividade a páginas web, permitindo que os
-                  desenvolvedores criem recursos dinâmicos e interativos que são executados diretamente no navegador do
-                  usuário.
-                  Uma das principais características do JavaScript é sua capacidade de manipular elementos HTML e CSS em
-                  tempo real. Com JavaScript, é possível criar efeitos visuais, validar formulários, responder a eventos
-                  do usuário (como cliques e movimentos do mouse) e realizar atualizações de conteúdo sem a necessidade
-                  de recarregar a página.</p>
-              </details>
-            </label>
-            <input id="ctrl-languages-python" name="language8" type="checkbox">
-            <label for="ctrl-languages-python">
-              <details>
-                <summary>Python &larr;</summary>
-                <p>Python é uma linguagem de programação de alto nível, interpretada e de propósito geral. Ela foi
-                  criada por Guido van Rossum e lançada pela primeira vez em 1991. Python é conhecida por sua sintaxe
-                  limpa e legível, que facilita a leitura e a escrita do código, tornando-a uma ótima opção para
-                  iniciantes em programação.</p>
-              </details>
-            </label>
-            <input id="ctrl-languages-php" name="language9" type="checkbox">
-            <label for="ctrl-languages-php">
-              <details>
-                <summary>PHP &larr;</summary>
-                <p>PHP é uma linguagem de programação de código aberto, amplamente utilizada para o desenvolvimento de
-                  aplicativos web dinâmicos. Ela foi criada por Rasmus Lerdorf no final dos anos 1990 e é uma das
-                  linguagens mais populares para a construção de sites e sistemas de gerenciamento de conteúdo.</p>
-              </details>
-            </label>
           </div>
-        </div>
-        <div class="doubleButtom">
-          <input id="buttomReset" type="reset" name="reset" value="Limpar">
-          <input id="buttomSubmit" type="submit" name="submit" value="Cadastrar">
+            
+            <div class="data1">
+              <p>* Dados obrigatórios</p>
+            </div>
+        </div>          
+        <div class="oneButtom">          
           </form>
           <form class="form-InitialButtom" action="../index.html">
             <input id="buttomInitial" type="submit" name="back" value="Página inicial">
@@ -259,7 +261,8 @@
   </main>
   <footer>
     Desenvolvido com ❤️ pela:
-    <a href="../know.html">Soft_Willer</a>
+    <a href="../know.html">Soft-Willer</a>
+    <p>&#169 Copyright 2024</p>
   </footer>
 </body>
 

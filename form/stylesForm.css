@@ -18,26 +18,31 @@ header h1 {
   background-image: url(../assets/technologies_.png);
   background-repeat: no-repeat;
   background-position: right;
-  background-size: 600px;
-  background-margin-right: 0;
+  background-size: 500px;
+  background-position-y: 30%;
   font: bold 20px arial, sans-serif;
   color: #db0707;
   padding: 25px;
   padding-bottom: 0;
   border: 2px solid;
   border-radius: 10px;
-  margin-top: 90px;
+  margin-top: 80px;
 }
 
 #input label,
 input {
   margin: 5px;
+  font-size: 18px;
 }
 
 #theCad {
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
+}
+
+#theCad h2 {
+  text-decoration: underline;
 }
 
 #formCad {
@@ -116,29 +121,30 @@ input {
   z-index: 999;
 }
 
+#languages {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+#languages h2 {
+  text-decoration: underline;
+}
+
 .data1 p {
   text-align: right;
   font-size: 10px;
 }
 
-#languages {
-  background: #000;
-  margin-top: 5px;
-  padding: 20px;
-  text-align: center;
-  font: bold 20px arial, sans-serif;
-  color: #db0707;
-  border: 2px solid;
-  border-radius: 10px;
-}
-
 #ctrl-languages {
-  margin-top: 20px;
+  margin-top: none;
+  margin-bottom: none; 
 }
 
 #ctrl-languages details {
   display: inline;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 #ctrl-languages details summary {
@@ -146,45 +152,38 @@ input {
   margin-top: 10px;
 }
 
-.password {
+.passPosition {
   background: #000;
   background-image: url(../assets/principal.png);
   background-repeat: no-repeat;
-  background-position: center;  
-  background-size: 260px;
-  padding: 200px;
+  background-position: center;
+  background-size: 220px;  
+  background-position-x: 20%;
+  
   font: bold 15px arial, sans-serif;
   color: #db0707;
   margin-top: 4px;
   padding-top: 10px;
   padding-bottom: 80px;
-  border: 2px solid;
-  text-align: right;
+  text-align: center;
   border-radius: 10px;
-}
-
-.password label {
-  margin: 5px;
-  margin-right: 260px;
-}
-
-.password input {
-  margin: 5px;
-  border-radius: 10px;
-  margin-right: 200px;
-  font-size: 18px;
 }
 
 .passwordTitle {
   color: #db0707;
   text-transform: uppercase;
-  text-align: right;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  margin-right: 290px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-decoration: underline;
 }
 
 .doubleButtom {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.oneButtom {
   background-color: #000;
   border: 2px solid #db0707;
   font-size: 30px;
@@ -204,7 +203,7 @@ input {
   border: 2px solid white;
   text-transform: uppercase;
   border-radius: 20px;
-  margin: 10px;
+  
 }
 
 #buttomReset:hover,
@@ -238,12 +237,17 @@ footer {
 }
 
 footer a {
+  font: bold 20px arial, sans-serif;
+  border: 2px solid #e90606ea;
+  border-radius: 20px;
+  padding: 3px;
+  margin-right: 10px;
   text-decoration: none;
   color: #db0707;
 }
 
 footer a:hover {
-  background: rgba(255, 255, 255, 0.2);
   outline: 6px solid rgba(255, 255, 255, 0.2);
   border-radius: 30px;
 }
+

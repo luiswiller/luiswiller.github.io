@@ -136,7 +136,7 @@ ul li a:hover {
 #social-links {
   display: flex;
   justify-content: center;
-  padding: 24px 0;
+  padding: 12px 0;
   font-size: 20px;
 }
 
@@ -159,6 +159,7 @@ ul li a:hover {
   justify-content: center;
   font-size: 14px;
   align-items: center;
+  margin-top: 0;
 }
 
 #contact a {
@@ -179,16 +180,16 @@ footer {
   color: var(--footer-color);
   display: flex;
   justify-content: center;
-  padding: 42px 0;
+  padding: 43px 0;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
 }
 
 footer a {
   color: var(--footer-color);
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   margin-left: 8px;
 }
 
@@ -196,6 +197,13 @@ footer a:hover {
   background: var(--highlight-color);
   outline: 6px solid var(--highlight-color);
   border-radius: 30px;
+}
+
+footer p{
+  color: var(--footer-color);
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 8px;  
 }
 
 /* animation */
@@ -216,3 +224,21 @@ footer a:hover {
     left: 0;
   }
 }
+
+@media (width < 40rem) {
+    footer {
+      font-size: 70%;
+    }
+  }
+
+  @media (width > 40rem) {
+    footer a {
+      font-size: 120%;
+    }
+  }
+
+  @media (width < 40rem) {
+    footer p {
+      font-size: 80%;
+    }
+  }

@@ -8,7 +8,8 @@
 header h1, h2 {
   color: #db0707;  
   position: top;
-  text-align: center; 
+  text-align: center;
+  margin-right: 230px;
 }
 
 h4 {
@@ -26,20 +27,26 @@ h4 {
 }
 
 footer {
-  margin-top: 30px;
-  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 20px;
   text-align: center;   
-  font: bold 15px arial, sans-serif;
+  font: bold 20px arial, sans-serif;
   color: #db0707;
   
 }
 
 footer a {
+  font: bold 20px arial, sans-serif;
+  border: 2px solid #e90606ea;
+  border-radius: 20px;
+  padding: 3px;
+  margin-right: 10px;
   text-decoration: none;
+  color: #db0707;
 }
 
-footer a:hover {
-  background: rgba(255, 255, 255, 0.2);
+footer a:hover {  
   outline: 6px solid rgba(255, 255, 255, 0.2);
   border-radius: 30px;
 }
