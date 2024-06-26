@@ -171,7 +171,6 @@ input {
 
 .passwordTitle {
   color: #db0707;
-  text-transform: uppercase;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 50px;
@@ -251,6 +250,12 @@ footer a:hover {
   outline: 6px solid rgba(255, 255, 255, 0.2);
   border-radius: 30px;
 }
+
+@media (width < 40rem) {
+    body main section label h2{
+      font-size: 70%;
+    }
+  }
 
 @media (width < 40rem) {
     footer {
