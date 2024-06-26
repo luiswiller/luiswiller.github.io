@@ -200,7 +200,7 @@ input {
   background: #000;
   font: bold 20px arial, sans-serif;
   color: #db0707;
-  border: 2px solid white;
+  border: 2px solid #e90606ea;
   text-transform: uppercase;
   border-radius: 20px;
   
@@ -209,7 +209,6 @@ input {
 #buttomReset:hover,
 #buttomSubmit:hover,
 #buttomInitial:hover {
-  background: rgba(255, 255, 255, 0.2);
   outline: 6px solid rgba(255, 255, 255, 0.2);
   border-radius: 30px;
   cursor: pointer;
