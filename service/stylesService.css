@@ -69,3 +69,21 @@ footer a:hover {
   border-radius: 30px;
   cursor: pointer;
 }
+
+@media (width < 40rem) {
+    #backButtom {
+      font-size: 70%;
+    }
+  }
+
+@media (width < 40rem) {
+    footer a {
+      font-size: 90%;
+    }
+  }
+
+  @media (width < 40rem) {
+    footer p {
+      font-size: 70%;
+    }
+  }

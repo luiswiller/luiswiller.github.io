@@ -177,9 +177,9 @@ input {
   text-decoration: underline;
 }
 
-.doubleButtom {
+.dubleButtom {
   text-align: center;
-  margin-top: 90px;
+  
 }
 
 .oneButtom {
@@ -252,8 +252,52 @@ footer a:hover {
 }
 
 @media (width < 40rem) {
+    #formCard label, input {
+      font-size: 60%;
+    }
+  }
+
+@media (width < 40rem) {
     body main section label h2{
+      font-size: 90%;
+    }
+  }
+  
+  @media (width < 40rem) {
+    body main section p{
+      font-size: 50%;
+    }
+  }
+
+  @media (width < 40rem) {
+    label details summary{
+      font-size: 60%;
+    }
+  }
+
+  @media (width < 40rem) {
+    .languages{
+      font-size: 50%;
+    }
+  }
+
+  @media (width < 40rem) {
+    .passwordTitle {
+      font-size: 90%;
+    }
+  }
+
+  
+  
+  @media (width < 40rem) {
+    #buttomReset, #buttomSubmit, #buttomInitial {
       font-size: 70%;
+    }
+  }
+
+  @media (width < 40rem) {
+    .form-InitialButtom {
+      font-size: 50%;
     }
   }
 
