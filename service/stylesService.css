@@ -70,6 +70,25 @@ footer a:hover {
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    #backgroundDark {
+      background-image: none;
+    }
+  }
+
+@media (width < 40rem) {
+    header h1, h2 {          
+      font-size: 70%;
+    }
+  }
+
+@media (width < 40rem) {
+    body h4 {
+      text-align: center;      
+      font-size: 70%;
+    }
+  }
+
 @media (width < 40rem) {
     #backButtom {
       font-size: 70%;

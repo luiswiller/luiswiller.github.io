@@ -258,12 +258,6 @@ footer a:hover {
   }
 
 @media (width < 40rem) {
-  #music audio {
-    font-size: 40%;
-  }
-}
-
-@media (width < 40rem) {
     body main section label h2{
       font-size: 90%;
     }
