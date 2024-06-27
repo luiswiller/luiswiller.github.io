@@ -252,10 +252,16 @@ footer a:hover {
 }
 
 @media (width < 40rem) {
-    #formCard label, input {
+    #form1 label, input {
       font-size: 60%;
     }
   }
+
+@media (width < 40rem) {
+  #music audio {
+    font-size: 40%;
+  }
+}
 
 @media (width < 40rem) {
     body main section label h2{
@@ -276,18 +282,16 @@ footer a:hover {
   }
 
   @media (width < 40rem) {
-    .languages{
-      font-size: 50%;
-    }
-  }
-
-  @media (width < 40rem) {
     .passwordTitle {
       font-size: 90%;
     }
   }
 
-  
+@media (max-width: 40rem) {
+  label#passInform, label#passRepeatInform {
+    font-size: 70%;     
+  }
+}
   
   @media (width < 40rem) {
     #buttomReset, #buttomSubmit, #buttomInitial {
