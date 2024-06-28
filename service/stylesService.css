@@ -1,42 +1,104 @@
-* {  
-  margin-top: 5px;
-  margin-bottom: 0;
+/* Reset de margens e paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   color: #db0707;
-  
 }
 
-header h1, h2 {
-  color: #db0707;  
-  position: top;
-  text-align: center;
-  margin-right: 230px;
+html, body {
+  height: 100%;
 }
 
-h4 {
-  font-size: 20px;
-  margin-left: 50px;
-}
-
-#backgroundDark {
+body {
+  font-family: Arial, sans-serif;
+  color: #fff;
   background-color: #000;
-  background-image: url(../assets/soft_willer.png);  
-  background-repeat: no-repeat;  
-  background-position-x: right;
-  background-position-y: 30%;
+  background-image: url(../assets/soft_willer.png);
+  background-repeat: no-repeat;
+  background-position: right 30%;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  padding: 20px;
 }
 
 footer {
-  margin-top: 20px;
-  margin-bottom: 0;
   padding: 20px;
-  text-align: center;   
-  font: bold 20px arial, sans-serif;
+  background-color: #000;
+}
+
+header h1 {
+  text-decoration: underline;
+}
+
+header h1, header h2 {
   color: #db0707;
-  
+  text-align: left; /* Alinhar à esquerda */
+  margin-left: 30px;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.image-container img {
+  max-width: 50%;
+  height: auto;
+}
+
+main h4 {
+  text-align: left;
+  font-size: 20px;
+  margin: 30px;
+}
+
+form {
+  margin: 20px 0;
+}
+
+#backButtom {
+  background: #000;
+  font: bold 20px Arial, sans-serif;
+  border: 2px solid #e90606ea;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#backButtom:hover {
+  outline: 6px solid rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+}
+
+footer {  
+  padding: 20px;
+  text-align: center;
+  font: bold 20px Arial, sans-serif;
+  color: #db0707;
 }
 
 footer a {
-  font: bold 20px arial, sans-serif;
+  font: bold 20px Arial, sans-serif;
   border: 2px solid #e90606ea;
   border-radius: 20px;
   padding: 3px;
@@ -45,68 +107,49 @@ footer a {
   color: #db0707;
 }
 
-footer a:hover {  
+footer a:hover {
   outline: 6px solid rgba(255, 255, 255, 0.2);
   border-radius: 30px;
 }
 
-#backButtom {
-  background: #000000;
-  font: bold 20px arial, sans-serif;
-  border: 2px solid #e90606ea;
-  text-transform: uppercase;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 20px;
-  margin-top: 43px;
-  margin-left: 10px;  
-  display: flex;  
-}
-
-#backButtom:hover {  
-  outline: 6px solid rgba(255, 255, 255, 0.2);
-  border-radius: 30px;
-  cursor: pointer;
-}
-
+/* Media Queries para responsividade */
 @media (max-width: 768px) {
-    #backgroundDark {
-      background-image: none;
-    }
+  #backgroundDark {
+    background-image: none;
+  }
+}
+
+@media (max-width: 40rem) {
+  header h1, header h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 70%;
   }
 
-@media (width < 40rem) {
-    h1, h2 {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      margin-left: 110px;   
-      font-size: 70%;
-      
-    }
+  .image-container {
+    flex-direction: column;
+    align-items: center;
   }
 
-@media (width < 40rem) {
-    body h4 {
-      text-align: center;      
-      font-size: 70%;
-    }
+  .image-container img {
+    max-width: 100%;
   }
 
-@media (width < 40rem) {
-    #backButtom {
-      font-size: 70%;
-    }
+  main h4 {
+    text-align: center;
+    font-size: 70%;
   }
 
-@media (width < 40rem) {
-    footer a {
-      font-size: 90%;
-    }
+  #backButtom {
+    font-size: 70%;
   }
 
-  @media (width < 40rem) {
-    footer p {
-      font-size: 70%;
-    }
+  footer a {
+    font-size: 90%;
   }
+
+  footer p {
+    font-size: 70%;
+  }
+}

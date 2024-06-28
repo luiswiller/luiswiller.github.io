@@ -177,18 +177,11 @@ input {
   text-decoration: underline;
 }
 
-.dubleButtom {
-  text-align: center;
-  
-}
-
 .oneButtom {
   background-color: #000;
   border: 2px solid #db0707;
   font-size: 30px;
-  border-radius: 10px;
-  padding-bottom: 0;
-  padding: 10px;
+  border-radius: 10px;  
   margin-top: 5px;
   text-align: center;
 }
@@ -202,8 +195,9 @@ input {
   border: 2px solid #e90606ea;
   text-transform: uppercase;
   border-radius: 20px;
+  padding: 10px 20px;
   margin-top: 50px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   
 }
 
