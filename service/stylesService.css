@@ -32,14 +32,15 @@ footer {
   background-color: #000;
 }
 
-header h1 {
-  text-decoration: underline;
-}
-
 header h1, header h2 {
   color: #db0707;
-  text-align: left; /* Alinhar à esquerda */
+  text-align: left;
   margin-left: 30px;
+}
+
+header h1 {
+  margin-left: 120px;
+  text-decoration: underline;
 }
 
 main {
@@ -63,8 +64,7 @@ main {
   height: auto;
 }
 
-main h4 {
-  text-align: left;
+main h4 {  
   font-size: 20px;
   margin: 30px;
 }
@@ -101,8 +101,7 @@ footer a {
   font: bold 20px Arial, sans-serif;
   border: 2px solid #e90606ea;
   border-radius: 20px;
-  padding: 3px;
-  margin-right: 5px;
+  padding: 3px;  
   text-decoration: none;
   color: #db0707;
 }
@@ -121,6 +120,7 @@ footer a:hover {
 
 @media (max-width: 40rem) {
   header h1, header h2 {
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
     text-align: center;
