@@ -13,7 +13,20 @@
   text-decoration: none;
 }
 
-#backButtom {
+#loginButton {
+  background:#000000;
+  font: bold 20px arial, sans-serif;
+  color:#e90606ea;
+  border:2px solid #e90606ea;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-bottom: 5px;      
+}
+
+#backButton {
   background:#000000;
   font: bold 20px arial, sans-serif;
   color:#e90606ea;
@@ -26,7 +39,13 @@
   margin-top: 0;      
 }
 
-#backButtom:hover {
+#loginButton:hover {
+  outline: 8px solid rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#backButton:hover {
   outline: 8px solid rgba(255, 255, 255, 0.2);
   border-radius: 30px;
   cursor: pointer;
@@ -35,7 +54,7 @@
 footer {
   color: #db0707;
   font: bold 20px arial;
-  text-align: center;  
+  text-align: center;   
 }
 
 footer a {
