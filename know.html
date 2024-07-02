@@ -35,8 +35,8 @@
             </form>
           </div>
       </div>
-      <p class="logo">Desenvolvido com ❤️ pela Soft-Willer - 
-      &#169 Copyright 2024</p>
+      <p class="logo">Desenvolvido com ❤️ pela Soft-Willer</p> 
+      <p class="identidade">&#169 Copyright 2024</p>
       </footer>
       <form id="enterInside" action="./login/inside.html">
         <label class="user" for="email">USUÁRIO: </label>
@@ -45,17 +45,7 @@
         <input class="pass" name="password" type="password" required placeholder="Digite sua Senha">
         <input id="enterButtom" type="submit" value="Acessar">
         <button id="closeButtom" onclick="toClose()" class="voltar" type="button">Voltar</button>
-      </form>
-      <script>
-        function chamar() {
-          document.querySelector("#enterInside").style.opacity = 1;
-          document.querySelector("#colorBody").style.opacity = 0.2;
-        }
-        function toClose() {
-          document.querySelector("#colorBody").style.opacity = 1;
-          document.querySelector("#enterInside").style.opacity = 0;
-        }      
-      </script>
+      </form>      
     </div>
   </aside>
   <nav>
@@ -120,5 +110,6 @@
       </p>
     </a>
   </nav>
+  <script src="./service/knowScript.js"></script>
 </body>
 </html>

@@ -141,7 +141,16 @@ h3 {
   color: #db0707;
   font: bold 20px arial;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.identidade {
+  color: #db0707;
+  font: bold 12px arial;
+  text-align: center;
+  margin-top: 0;
+  padding: 0;
 }
 
 nav {
