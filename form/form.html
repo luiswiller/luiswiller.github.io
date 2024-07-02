@@ -8,7 +8,6 @@
   <title>Cadastro</title>
   <link rel="stylesheet" href="./stylesForm.css">
 </head>
-
 <body>
   <header>
     <h1>SOFT-WILLER</h1>
@@ -53,25 +52,34 @@
               <input type="date" id="data" required>
             </div>
             <div>
-              <label for="ctrl-address">* Endereço:</label>
-              <input name="address" type="address" id="ctrl-address" required placeholder="Digite o logradouro">
+              <label for="cep">* CEP:</label>
+              <input type="text" id="cep" name="cep" required placeholder="Digite apenas números">
+              <button id="buttonSearch" type="button" onclick="buscarCEP()">Buscar</button>
+            </div>
+            <div>
+              <label for="ctrl-address">* Logradouro:</label>
+              <input name="address" type="text" id="ctrl-address" required placeholder="Digite o logradouro" readonly>
             </div>
             <div>
               <label for="number">* Número:</label>
               <input type="number" id="number" min="1" max="300" placeholder="Ex.: 123">
             </div>
             <div>
+              <label for="bairro">* Bairro:</label>
+              <input type="text" id="bairro" required placeholder="Bairro" readonly>
+            </div>
+            <div>
               <label for="ctrl-city">* Cidade:</label>
-              <input type="city" id="city" required placeholder="Cidade">                            
+              <input type="text" id="city" required placeholder="Cidade" readonly>
             </div>
             <div>
               <label for="ctrl-state">* Estado:</label>
-              <input type="state" id="state" required placeholder="Estado">              
+              <input type="text" id="state" required placeholder="Estado" readonly>
             </div>
             <div>
               <label for="ctrl-country">* País:</label>
               <input type="country" id="country" required placeholder="País">
-            </div>
+            </div>            
             <div>
               <label for="ctrl-job">* Profissão:</label>
               <input name="job" type="job" id="ctrl-job" required placeholder="Digite sua profissão">
@@ -177,8 +185,8 @@
             <input name="password" type="password" id="ctrl-repeatPassword" required placeholder="Repita sua senha">
 
             <div class="dubleButtom">
-              <input id="buttomReset" type="reset" name="reset" value="Limpar">
-              <input id="buttomSubmit" type="submit" name="submit" value="Cadastrar">
+              <input id="buttonReset" type="reset" name="reset" value="Limpar">
+              <input id="buttonSubmit" type="submit" name="submit" value="Cadastrar">
             </div>
             
           </div>
@@ -188,8 +196,8 @@
         </div>
         <div class="oneButtom">
       </form>
-      <form class="form-InitialButtom" action="../index.html">
-        <input id="buttomInitial" type="submit" name="back" value="Página inicial">
+      <form class="form-InitialButton" action="../index.html">
+        <input id="buttonInitial" type="submit" name="back" value="Página inicial">      
       </form>
       </div>
     </section>
@@ -199,6 +207,7 @@
     <a href="../know.html">Soft-Willer</a>
     <p>&#169 Copyright 2024</p>
   </footer>
+  <script src="scriptAddress.js"></script>
 </body>
 
 </html>

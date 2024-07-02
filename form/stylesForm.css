@@ -177,6 +177,16 @@ input {
   text-decoration: underline;
 }
 
+#buttonSearch {
+  background: #000;
+  font: bold 15px arial, sans-serif;
+  color: #db0707;
+  border: 2px solid #e90606ea;
+  text-transform: uppercase;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
 .oneButtom {
   background-color: #000;
   border: 2px solid #db0707;
@@ -186,9 +196,9 @@ input {
   text-align: center;
 }
 
-#buttomReset,
-#buttomSubmit,
-#buttomInitial {
+#buttonReset,
+#buttonSubmit,
+#buttonInitial {
   background: #000;
   font: bold 20px arial, sans-serif;
   color: #db0707;
@@ -197,13 +207,13 @@ input {
   border-radius: 20px;
   padding: 10px 20px;
   margin-top: 50px;
-  margin-bottom: 10px;
-  
+  margin-bottom: 10px;  
 }
 
-#buttomReset:hover,
-#buttomSubmit:hover,
-#buttomInitial:hover {
+#buttonReset:hover,
+#buttonSubmit:hover,
+#buttonInitial:hover,
+#buttonSearch:hover {
   outline: 6px solid rgba(255, 255, 255, 0.2);
   border-radius: 30px;
   cursor: pointer;
@@ -280,15 +290,21 @@ footer a:hover {
     font-size: 70%;     
   }
 }
+
+@media (width < 40rem){
+  #form1 #buttonSearch {
+    font-size: 50%;
+  }
+}
   
   @media (width < 40rem) {
-    #buttomReset, #buttomSubmit, #buttomInitial {
+    #buttonReset, #buttonSubmit, #buttonInitial {
       font-size: 70%;
     }
   }
 
   @media (width < 40rem) {
-    .form-InitialButtom {
+    .form-InitialButton {
       font-size: 50%;
     }
   }
