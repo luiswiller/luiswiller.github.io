@@ -23,6 +23,10 @@
           </div>
           <div id="formCad">
             <div>
+              <label for="ctrl-cpf">* CPF:</label>
+              <input name="cpf" type="cpf" id="ctrl-cpf" required placeholder="Digite seu CPF">
+            </div>
+            <div>
               <label for="ctrl-name">* Nome completo:</label>
               <input name="name" type="text" id="ctrl-name" required placeholder="Digite seu nome" autofocus>
             </div>
@@ -38,11 +42,7 @@
                 <option value="3">Feminino</option>
                 <option value="4">Transgênero</option>
               </select>
-            </div>
-            <div>
-              <label for="ctrl-cpf">* CPF:</label>
-              <input name="cpf" type="cpf" id="ctrl-cpf" required placeholder="Digite seu CPF">
-            </div>
+            </div>            
             <div>
               <label for="ctrl-phone">* Fone:</label>
               <input name="phone" type="phone" id="ctrl-phone" required placeholder="Digite seu telefone">
@@ -207,6 +207,7 @@
     <a href="../know.html">Soft-Willer</a>
     <p>&#169 Copyright 2024</p>
   </footer>
+  <script src="scriptValidaCPF.js"></script>
   <script src="scriptAddress.js"></script>
 </body>
 
