@@ -17,16 +17,16 @@
   background:#000000;
   font: bold 20px arial, sans-serif;
   color:#e90606ea;
-  border:2px solid white;
+  border:2px solid #e90606ea;
   text-transform: uppercase;
   text-align: center;
+  padding: 10px 20px;
   border-radius: 20px;
   margin-left: 20px;
   margin-top: 0;      
 }
 
 #backButtom:hover {
-  background: rgba(255, 255, 255, 0.1);
   outline: 8px solid rgba(255, 255, 255, 0.2);
   border-radius: 30px;
   cursor: pointer;
@@ -41,4 +41,13 @@ footer {
 footer a {
   text-decoration: none;
   color: #db0707;
+  border: 2px solid #e90606ea;
+  border-radius: 20px;
+  padding: 3px;
+}
+
+footer a:hover {
+  outline: 8px solid rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+  cursor: pointer;
 }
