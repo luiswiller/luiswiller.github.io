@@ -111,6 +111,10 @@ footer a:hover {
   border-radius: 30px;
 }
 
+#identidade {
+  font: bold 14px arial;
+}
+
 /* Media Queries para responsividade */
 @media (max-width: 768px) {
   #backgroundDark {
@@ -151,5 +155,11 @@ footer a:hover {
 
   footer p {
     font-size: 70%;
+  }
+}
+
+@media (max-width: 40rem) {
+  #identidade {
+    font-size: 8px;
   }
 }

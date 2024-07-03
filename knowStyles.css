@@ -36,18 +36,15 @@ body {
   grid-template-rows: 100vh;
 }
 
-.profiles {
+.profiles img {
   margin-top: 0;
   margin-bottom: 0;
 }
 
 h3 {
   color: red;
-  text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 0;
-}
+  text-align: center;  
+  }
 
 .myLink {
   color: #db0707;

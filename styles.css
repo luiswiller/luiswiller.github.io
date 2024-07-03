@@ -182,7 +182,7 @@ footer {
   justify-content: center;
   padding: 43px 0;
   text-align: center;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
 }
 
@@ -202,8 +202,8 @@ footer a:hover {
 footer p{
   color: var(--footer-color);
   text-decoration: none;
-  font-size: 16px;
-  margin-left: 8px;  
+  font-size: 9px;
+  margin-left: 6px;  
 }
 
 /* animation */
