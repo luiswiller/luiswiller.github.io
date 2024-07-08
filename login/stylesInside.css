@@ -73,6 +73,10 @@ footer a:hover {
   border-radius: 30px;
 }
 
+footer #autoral {
+  font-size: 12px;
+}
+
 @media (max-width: 700px) {
   header h1 {
     font-size: 24px;
