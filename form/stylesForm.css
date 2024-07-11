@@ -167,6 +167,7 @@ input {
 #ctrl-languages details summary {
   display: inline;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .passPosition {
